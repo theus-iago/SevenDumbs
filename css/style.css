@@ -213,12 +213,20 @@ body {
     display: none;
   }
 }
+#chat {
+  opacity:0;
+  position: absolute;
+  top:35%;
+  left:98%;
+  transform: translate(-98%,-35%);
+}
 #jogo {
+  border-radius:3%;
   height:535px;
   width:265px;
   position: absolute;
-  top: 12.5%;
+  top: 12.6%;
   left:40%;
-  transform: translate(-40%, -12.5%);
+  transform: translate(-40%, -12.6%);
   transform: rotate(-90deg);
 }

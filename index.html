@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
     />
     <link
       href="./css/fontawesome/css/all.css"
       rel="stylesheet"
       type="text/css"
-    />
+      />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -30,7 +30,7 @@
             <a href="#">Home</a>
             <a href="#">Como foi feito?</a>
             <a href="#">Contato</a>
-            <a href="#" class="btn-dwnld">Baixar</a>
+            <a href="#" class="btn-dwnld" onclick="chat()" ondblclick="exit_chat()">Bugs</a>
           </div>
         </div>
         <div class="mockup">
@@ -87,8 +87,10 @@
     <section class="cta">
       <h2 translate="no"><span><</span>NOBODY<span>></span></h2>
       <h4>instale gratuitamente aqui abaixo nosso mais novo jogo</h4>
-      <a href="#"> Baixar </a>
+      <a href="#"> Jogar </a>
     </section>
     <iframe id="jogo" src="https://theus-iago.github.io/Projeto-No-Body/" frameborder="0"></iframe>
+    <iframe id="chat" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/621146b8-a514-48d4-a784-327db388f788"></iframe>
+    <script src="index.js"defer></script>
   </body>
 </html>
